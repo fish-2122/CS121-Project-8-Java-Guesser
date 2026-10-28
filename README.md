@@ -5,8 +5,46 @@
 ```
 import java util
 
-public class GussingGame {
+public class GuessingGame {
+    Scanner input
+
     public GuessingGame() {
+        initialize input
+    }
+
+    public startGame() {
+        keepGoing = true
+        while keepGoing
+            printMenu()
+            input = scanner nextline
+            if input = 0
+                keepGoing = false
+            if input = 1
+                playerGame()
+            if input = 2
+                algorithmGame()
+            else
+                print "bad input"
+    }
+
+    public playerGame() {
+        int randomNum
+        put random number in randomNum
+        int guess
+
+        print "guess a number between 0 and 100"
+
+        keepGoing = true
+        while keepGoing
+            guess = input nextline
+            
+    }
+
+    public algorithmGame() {
+
+    }
+
+    public printMenu() {
         
     }
 
